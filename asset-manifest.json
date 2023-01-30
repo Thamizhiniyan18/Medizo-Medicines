@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/Medizo-Medicines/static/css/main.073c9b0a.css",
-    "main.js": "/Medizo-Medicines/static/js/main.951a5612.js",
-    "static/js/787.b5ad3593.chunk.js": "/Medizo-Medicines/static/js/787.b5ad3593.chunk.js",
-    "static/media/logo.jpg": "/Medizo-Medicines/static/media/logo.97e44ea4d75819dcc6fa.jpg",
+    "main.css": "/Medizo-Medicines/static/css/main.b8ba669d.css",
+    "main.js": "/Medizo-Medicines/static/js/main.58ed6bef.js",
+    "static/media/logo.jpg": "/Medizo-Medicines/static/media/logo.f6414470a87105625ba2.jpg",
     "index.html": "/Medizo-Medicines/index.html",
-    "main.073c9b0a.css.map": "/Medizo-Medicines/static/css/main.073c9b0a.css.map",
-    "main.951a5612.js.map": "/Medizo-Medicines/static/js/main.951a5612.js.map",
-    "787.b5ad3593.chunk.js.map": "/Medizo-Medicines/static/js/787.b5ad3593.chunk.js.map"
+    "main.b8ba669d.css.map": "/Medizo-Medicines/static/css/main.b8ba669d.css.map",
+    "main.58ed6bef.js.map": "/Medizo-Medicines/static/js/main.58ed6bef.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.951a5612.js"
+    "static/css/main.b8ba669d.css",
+    "static/js/main.58ed6bef.js"
   ]
 }
