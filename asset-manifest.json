@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/Medizo-Medicines/static/css/main.c9d06626.css",
-    "main.js": "/Medizo-Medicines/static/js/main.93da935b.js",
+    "main.css": "/Medizo-Medicines/static/css/main.265db80d.css",
+    "main.js": "/Medizo-Medicines/static/js/main.2b4d7a61.js",
     "static/media/background.png": "/Medizo-Medicines/static/media/background.2b09bdd9b2bf21570d76.png",
     "static/media/image2.svg": "/Medizo-Medicines/static/media/image2.75913f7f5d36321651e2efba31ab9dd5.svg",
     "static/media/image1.svg": "/Medizo-Medicines/static/media/image1.ac3ff3709b9f122bbaf3523b8b08f97f.svg",
+    "static/media/image4.svg": "/Medizo-Medicines/static/media/image4.2f88142a4f580fa55492664a84aad9be.svg",
+    "static/media/image3.svg": "/Medizo-Medicines/static/media/image3.972fb8118c2e3baa7a0fa92533cfcf94.svg",
     "static/media/logo.jpg": "/Medizo-Medicines/static/media/logo.f6414470a87105625ba2.jpg",
     "index.html": "/Medizo-Medicines/index.html",
-    "main.c9d06626.css.map": "/Medizo-Medicines/static/css/main.c9d06626.css.map",
-    "main.93da935b.js.map": "/Medizo-Medicines/static/js/main.93da935b.js.map"
+    "main.265db80d.css.map": "/Medizo-Medicines/static/css/main.265db80d.css.map",
+    "main.2b4d7a61.js.map": "/Medizo-Medicines/static/js/main.2b4d7a61.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9d06626.css",
-    "static/js/main.93da935b.js"
+    "static/css/main.265db80d.css",
+    "static/js/main.2b4d7a61.js"
   ]
 }
