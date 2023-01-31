@@ -1,0 +1,105 @@
+.Home {
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.Home div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+}
+
+.logo {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.logo img {
+  size: 110%;
+}
+
+.image1 {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  width: 400px;
+  height: 400px;
+}
+
+.image2 {
+  position: absolute;
+  right: 100px;
+  bottom: 0px;
+  width: 500px;
+  height: 500px;
+}
+
+.image3 {
+  position: absolute;
+  top: 650px;
+  left: 300px;
+  width: 400px;
+  height: 400px;
+}
+
+.contactUs {
+  position: relative;
+  top: 400px;
+  left: 50%;
+  transform: rotate(0deg) translateX(-50%);
+  width: 400px;
+  height: 70px;
+  box-shadow: 2.2px 2.6px 4.4px rgba(0, 0, 0, 0.041),
+    5.4px 6.3px 10.6px rgba(0, 0, 0, 0.067),
+    10.1px 11.8px 19.9px rgba(0, 0, 0, 0.096),
+    18.1px 21px 35.5px rgba(0, 0, 0, 0.132),
+    33.8px 39.3px 66.4px rgba(0, 0, 0, 0.176),
+    81px 94px 159px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  animation: shake ease-in-out both infinite 1s;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg) translateX(-50%);
+  }
+  25% {
+    transform: rotate(3deg) translateX(-50%);
+  }
+  50% {
+    transform: rotate(-3deg) translateX(-50%);
+  }
+  75% {
+    transform: rotate(1deg) translateX(-50%);
+  }
+  100% {
+    transform: rotate(0deg) translateX(-50%);
+  }
+}
+
+.contactUs button {
+  width: 100%;
+  height: 100%;
+  color: black;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 30px;
+  letter-spacing: 3px;
+  background-color: white;
+}
+
+.contactUs button:hover {
+  background-color: rgba(0, 0, 0, 0.479);
+  color: white;
+  transition: 0.2s ease-in-out;
+  animation: none;
+}

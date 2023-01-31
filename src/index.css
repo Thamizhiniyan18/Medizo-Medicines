@@ -2,7 +2,7 @@
 
 :root {
   --color-1: #0669b5;
-  --color-2: #9cff1a;
+  --color-2: #84c81b;
   --font-family: 'Catamaran', sans-serif;
 }
 
@@ -11,5 +11,6 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  scroll-behavior: smooth;
   font-family: var(--font-family);
 }
