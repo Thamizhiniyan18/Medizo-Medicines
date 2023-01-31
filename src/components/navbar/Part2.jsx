@@ -11,32 +11,22 @@ const Part2 = () => {
     console.log(event.currentTarget.children[1].className);
     event.currentTarget.children[1].className = `${styles.underline}`;
   };
-  
+
+  const elements = ["Home", "About Us", "Contact"];
+
   return (
     <div className={styles.part2}>
       <div className={styles.elements}>
         <ul>
-          <li
-            onMouseEnter={onMouseEnter_Handler}
-            onMouseLeave={onMouseLeave_Handler}
-          >
-            <p>Home</p>
-            <div className={styles.underline}></div>
-          </li>
-          <li
-            onMouseEnter={onMouseEnter_Handler}
-            onMouseLeave={onMouseLeave_Handler}
-          >
-            <p>About</p>
-            <div className={styles.underline}></div>
-          </li>
-          <li
-            onMouseEnter={onMouseEnter_Handler}
-            onMouseLeave={onMouseLeave_Handler}
-          >
-            <p>Contact</p>
-            <div className={styles.underline}></div>
-          </li>
+          {elements.map((element) => (
+            <li
+              onMouseEnter={onMouseEnter_Handler}
+              onMouseLeave={onMouseLeave_Handler}
+            >
+              <p>{element}</p>
+              <div className={styles.underline}></div>
+            </li>
+          ))}
         </ul>
       </div>
     </div>
