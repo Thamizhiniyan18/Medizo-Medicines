@@ -25,29 +25,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.description {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  word-wrap: normal;
-  text-align: center;
-  padding: 2%;
-  background-color: black;
-  border: 5px solid gold;
-  border-radius: 15px;
+.stats {
+  display: grid;
+  width: 617px;
+  height: 360px;
+  grid-template-areas:
+    "foundIn areaServed"
+    "Outlets areaServed";
+  overflow-y: hidden;
+  margin-top: 60px;
 }
 
-.description p {
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: white;
-}
 
-.description p span {
-    font-size: 30px;
-    letter-spacing: 3px;
-    color: var(--color-1);
-}
+

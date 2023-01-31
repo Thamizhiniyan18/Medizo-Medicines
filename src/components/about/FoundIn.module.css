@@ -1,0 +1,30 @@
+.foundIn {
+    color: black;
+    letter-spacing: 2px;
+    grid-area: foundIn;
+    background-color: rgba(0, 0, 0, 0.308);
+    color: black;
+    opacity: 0;
+    transform: translateX(-60px);
+  }
+  
+  .foundIn div {    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 2%;
+  }
+  
+  .foundIn p {
+    width: 150px;
+    font-size: 20px;
+  }
+  
+  .foundIn h1 {
+    width: 100%;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }
+  

@@ -1,0 +1,27 @@
+.description {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: normal;
+    text-align: center;
+    padding: 2%;
+    background-color: white;
+    overflow-y: hidden;
+    margin-top: 80px;
+    opacity: 0;
+    box-shadow: 17px 17px 34px rgba(0, 0, 0, 0.233),
+    -17px -17px 34px rgba(0, 0, 0, 0.233);
+  }
+  
+  .description p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: black;
+  }
+  
+  .description p span {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: var(--color-1);
+  }

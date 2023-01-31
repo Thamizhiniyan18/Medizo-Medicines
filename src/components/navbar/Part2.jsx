@@ -22,6 +22,7 @@ const Part2 = () => {
             <li
               onMouseEnter={onMouseEnter_Handler}
               onMouseLeave={onMouseLeave_Handler}
+              key={Math.random()}
             >
               <p>{element}</p>
               <div className={styles.underline}></div>

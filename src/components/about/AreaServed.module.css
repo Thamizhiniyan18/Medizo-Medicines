@@ -1,0 +1,41 @@
+.areaServed {
+  grid-area: areaServed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 2%;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 320px;
+  min-height: 360px;
+  opacity: 0;
+  transform: translateX(60px);
+}
+
+.container1 {
+  width: 190px;
+  height: 70px;
+  display: grid;
+  grid-template-areas: "locationSymbol p" "locationSymbol h1";
+  margin-top: 20px;
+}
+
+.container1 i {
+  grid-area: locationSymbol;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.areaServed p {
+  grid-area: p;
+  font-size: 12px;
+}
+
+.areaServed h1 {
+  grid-area: h1;
+  font-size: 30px;
+}

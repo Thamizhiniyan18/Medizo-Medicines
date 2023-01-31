@@ -20,7 +20,7 @@
 
 .part1 .title h1 {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   font-size: 40px;
   letter-spacing: 5px;
