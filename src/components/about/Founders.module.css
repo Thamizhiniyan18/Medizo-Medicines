@@ -1,0 +1,120 @@
+.Founders {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  overflow-y: hidden;
+  margin-bottom: 85px;
+}
+
+.Founders h1 {
+  letter-spacing: 3px;
+}
+
+.title {
+  width: 80%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-left: 2px;
+  border-right: 2px;
+  border-image: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 1),
+      rgba(0, 0, 0, 1),
+      rgba(255, 255, 255, 1)
+    )
+    1;
+}
+
+.founder {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  transform: translateX(-400px) translateY(75px);
+  z-index: 1;
+  opacity: 0;
+}
+
+.founder div {
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.founder div:nth-child(odd) {
+  width: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.founder div:nth-child(odd) h1 {
+  font-size: 50px;
+  letter-spacing: 6px;
+}
+
+.founder div:nth-child(odd) p {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.founder div:nth-child(even) {
+  width: 350px;
+  padding: 10px;
+}
+
+.founder img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.coFounder {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.712);
+  transform: translateX(600px);
+  opacity: 0;
+}
+
+.coFounder div {
+  height: 100%;
+  overflow-y: hidden;
+  z-index: 0;
+}
+
+.coFounder div:nth-child(odd) {
+  width: 250px;
+  padding: 10px;
+}
+
+.coFounder div:nth-child(even) {
+  width: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.coFounder div:nth-child(even) h1 {
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.coFounder div:nth-child(even) p {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.coFounder img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}

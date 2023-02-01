@@ -4,6 +4,8 @@ import Description from "./Description";
 import FoundIn from "./FoundIn";
 import AreaServed from "./AreaServed";
 import Outlets from "./Outlets";
+import Founders from "./Founders";
+import pattern from "../../assets/pattern.png";
 
 const About = () => {
   return (
@@ -11,13 +13,14 @@ const About = () => {
       <div className={styles.Title}>
         <p>ABOUT US</p>
       </div>
-      <div className={styles.contentContainer}>
+      <div className={styles.contentContainer} style={{backgroundImage: `url(${pattern})`}}>
         <Description />
         <div className={styles.stats}>
           <FoundIn />
           <AreaServed />
           <Outlets />
         </div>
+        <Founders />
       </div>
     </div>
   );

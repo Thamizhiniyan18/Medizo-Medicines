@@ -14,3 +14,18 @@
   scroll-behavior: smooth;
   font-family: var(--font-family);
 }
+
+.div1, .div2 {
+  position: fixed;
+  height: 100vh;
+  width: 350px;
+  background-color: red;
+}
+
+.div1 {
+  left: 0;
+}
+
+.div2 {
+  right: 0;
+}

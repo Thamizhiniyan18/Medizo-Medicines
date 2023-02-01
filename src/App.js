@@ -14,6 +14,8 @@ const App = () => {
 
   return (
     <>
+      {/* <div className="div1"></div>
+      <div className="div2"></div> */}
       <Navbar />
       <Home />
       <About />
