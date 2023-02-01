@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/Medizo-Medicines/static/css/main.606df116.css",
-    "main.js": "/Medizo-Medicines/static/js/main.3c4e0707.js",
+    "main.css": "/Medizo-Medicines/static/css/main.72ca0a7c.css",
+    "main.js": "/Medizo-Medicines/static/js/main.33e82ad0.js",
+    "static/media/pattern.png": "/Medizo-Medicines/static/media/pattern.92ef903d4d77c6644cc3.png",
     "static/media/India.png": "/Medizo-Medicines/static/media/India.7d9c40f7ffb7bf6c92df.png",
     "static/media/background.png": "/Medizo-Medicines/static/media/background.2b09bdd9b2bf21570d76.png",
+    "static/media/contact.png": "/Medizo-Medicines/static/media/contact.366416f3ad782739efcf.png",
     "static/media/outlets.png": "/Medizo-Medicines/static/media/outlets.3c887e92e066bda327f9.png",
+    "static/media/Antony.jpg": "/Medizo-Medicines/static/media/Antony.97e44ea4d75819dcc6fa.jpg",
     "static/media/image2.svg": "/Medizo-Medicines/static/media/image2.75913f7f5d36321651e2efba31ab9dd5.svg",
+    "static/media/default-profile.png": "/Medizo-Medicines/static/media/default-profile.5dee6a1e622082bcd72d.png",
     "static/media/image1.svg": "/Medizo-Medicines/static/media/image1.ac3ff3709b9f122bbaf3523b8b08f97f.svg",
     "static/media/image4.svg": "/Medizo-Medicines/static/media/image4.2f88142a4f580fa55492664a84aad9be.svg",
+    "static/media/phone.png": "/Medizo-Medicines/static/media/phone.0172a00d8ee4b4aaec6e.png",
     "static/media/image3.svg": "/Medizo-Medicines/static/media/image3.972fb8118c2e3baa7a0fa92533cfcf94.svg",
+    "static/media/mail.png": "/Medizo-Medicines/static/media/mail.bb0811de781176a0dfcb.png",
     "static/media/logo.jpg": "/Medizo-Medicines/static/media/logo.f6414470a87105625ba2.jpg",
     "static/media/rocket.svg": "/Medizo-Medicines/static/media/rocket.ca940156c7f2c138b661400e4c580d30.svg",
     "index.html": "/Medizo-Medicines/index.html",
-    "main.606df116.css.map": "/Medizo-Medicines/static/css/main.606df116.css.map",
-    "main.3c4e0707.js.map": "/Medizo-Medicines/static/js/main.3c4e0707.js.map"
+    "main.72ca0a7c.css.map": "/Medizo-Medicines/static/css/main.72ca0a7c.css.map",
+    "main.33e82ad0.js.map": "/Medizo-Medicines/static/js/main.33e82ad0.js.map"
   },
   "entrypoints": [
-    "static/css/main.606df116.css",
-    "static/js/main.3c4e0707.js"
+    "static/css/main.72ca0a7c.css",
+    "static/js/main.33e82ad0.js"
   ]
 }
