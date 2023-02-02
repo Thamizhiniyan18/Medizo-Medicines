@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Medizo-Medicines/static/css/main.0b918b84.css",
-    "main.js": "/Medizo-Medicines/static/js/main.b861c94b.js",
-    "static/media/pattern.png": "/Medizo-Medicines/static/media/pattern.92ef903d4d77c6644cc3.png",
+    "main.css": "/Medizo-Medicines/static/css/main.5d898d81.css",
+    "main.js": "/Medizo-Medicines/static/js/main.7583bb36.js",
     "static/media/India.png": "/Medizo-Medicines/static/media/India.7d9c40f7ffb7bf6c92df.png",
     "static/media/background.png": "/Medizo-Medicines/static/media/background.2b09bdd9b2bf21570d76.png",
+    "static/media/pattern.png": "/Medizo-Medicines/static/media/pattern.703321e5a5fe43c893c8.png",
     "static/media/contact.png": "/Medizo-Medicines/static/media/contact.366416f3ad782739efcf.png",
     "static/media/outlets.png": "/Medizo-Medicines/static/media/outlets.3c887e92e066bda327f9.png",
     "static/media/Antony.jpg": "/Medizo-Medicines/static/media/Antony.97e44ea4d75819dcc6fa.jpg",
@@ -17,11 +17,11 @@
     "static/media/logo.jpg": "/Medizo-Medicines/static/media/logo.f6414470a87105625ba2.jpg",
     "static/media/rocket.svg": "/Medizo-Medicines/static/media/rocket.ca940156c7f2c138b661400e4c580d30.svg",
     "index.html": "/Medizo-Medicines/index.html",
-    "main.0b918b84.css.map": "/Medizo-Medicines/static/css/main.0b918b84.css.map",
-    "main.b861c94b.js.map": "/Medizo-Medicines/static/js/main.b861c94b.js.map"
+    "main.5d898d81.css.map": "/Medizo-Medicines/static/css/main.5d898d81.css.map",
+    "main.7583bb36.js.map": "/Medizo-Medicines/static/js/main.7583bb36.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b918b84.css",
-    "static/js/main.b861c94b.js"
+    "static/css/main.5d898d81.css",
+    "static/js/main.7583bb36.js"
   ]
 }
