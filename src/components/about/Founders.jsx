@@ -20,15 +20,15 @@ const Founders = () => {
       <div className={styles.coFounder}>
         <div className="">
           <h1>Gowtham Prakash</h1>
-          <p>Co-Founder</p>
+          <p>Chief Operating Officer</p>
         </div>
         <div className="">
           <h1>Punith Amudhan</h1>
-          <p>Co-Founder</p>
+          <p>Chief Financial Officer</p>
         </div>
         <div className="">
           <h1>Mano</h1>
-          <p>Co-Founder</p>
+          <p>Chief Marketing Officer</p>
         </div>
       </div>
     </div>
