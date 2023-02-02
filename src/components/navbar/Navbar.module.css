@@ -1,7 +1,6 @@
 .border {
   width: 100%;
   height: 90px;
-  /* border: 2px solid var(--color-1); */
   overflow-y: hidden;
   display: flex;
   justify-content: center;
@@ -18,5 +17,16 @@
   align-items: center;
   color: white;
   overflow-y: hidden;
-  /* border: 2px solid var(--color-2); */
+}
+
+@media screen and (max-width: 1200px) {
+    .Navbar {
+      height: 200px;
+    }
+
+    .border {
+      height: 100%;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
 }

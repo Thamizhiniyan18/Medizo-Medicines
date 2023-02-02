@@ -39,3 +39,40 @@
   grid-area: h1;
   font-size: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  .areaServed {
+    width: 80%;
+    background-size: 100%;
+  }
+
+  .container1 {
+    width: 180px;
+    height: 70px;
+    display: grid;
+    gap: 5px;
+    grid-template-areas: "locationSymbol p" "locationSymbol h1";
+    margin-top: 20px;
+  }
+  
+  .container1 i {
+    grid-area: locationSymbol;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+  }
+  
+  .areaServed p {
+    grid-area: p;
+    font-size: 12px;
+    overflow-y: hidden;
+  }
+  
+  .areaServed h1 {
+    grid-area: h1;
+    font-size: 30px;
+    overflow-y: hidden;
+  }
+}

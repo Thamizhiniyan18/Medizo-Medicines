@@ -4,6 +4,7 @@
   width: 25%;
   justify-content: flex-start;
   margin-left: 100px;
+  overflow-y: hidden;
 }
 
 .part1 div {
@@ -43,4 +44,24 @@
 .logo img {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .part1 {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    transform: translateX(-10px);
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .part1 {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    transform: translateX(-10px);
+    margin: 0;
+  }
 }

@@ -25,3 +25,9 @@
     letter-spacing: 3px;
     color: var(--color-1);
   }
+
+  @media screen and (max-width: 600px) {
+    .description {
+      width: 80%;
+    }
+  }

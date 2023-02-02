@@ -7,7 +7,7 @@
 }
 
 .Outlets p {
-  width: 150px;
+  width: 300px;
   font-size: 20px;
 }
 
@@ -24,4 +24,22 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.37);
   padding: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .Outlets {
+    width: 80%;
+    height: 300px;
+    transform: translateX(0px);
+  }
+
+  .Outlets h1 {
+    height: 80%;
+    font-size: 120px;
+    letter-spacing: 10px;
+  }
+
+  .Outlets p {
+    font-size: 30px;
+  }
 }

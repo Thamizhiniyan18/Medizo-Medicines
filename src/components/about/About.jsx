@@ -9,7 +9,7 @@ import pattern from "../../assets/pattern.png";
 
 const About = () => {
   return (
-    <div id="About" className={styles.About}>
+    <div id="AboutUs" className={styles.About}>
       <div className={styles.Title}>
         <p>ABOUT US</p>
       </div>

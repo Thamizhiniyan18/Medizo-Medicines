@@ -36,7 +36,7 @@ const AreaServed = () => {
       ref={areaServed} 
     >
       <div className={styles.container1}>
-        <i class="fa-solid fa-location-dot"></i>
+        <i className="fa-solid fa-location-dot"></i>
         <p>We Provide Services in</p>
         <h1>India</h1>
       </div>

@@ -9,10 +9,6 @@
   margin-bottom: 85px;
 }
 
-.Founders h1 {
-  letter-spacing: 3px;
-}
-
 .title {
   width: 80%;
   text-align: center;
@@ -29,92 +25,113 @@
     1;
 }
 
+.title h1 {
+  letter-spacing: 3px;
+}
+
 .founder {
-  height: 600px;
+  margin-top: 50px;
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
+  flex-direction: column;
   background-color: black;
-  transform: translateX(-400px) translateY(75px);
+  color: white;
   z-index: 1;
-  opacity: 0;
+  opacity: 1;
+  text-align: center;
 }
 
 .founder div {
-  height: 100%;
+  width: 100%;
   overflow-y: hidden;
 }
 
 .founder div:nth-child(odd) {
-  width: 400px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
+  height: 70%;
 }
 
-.founder div:nth-child(odd) h1 {
-  font-size: 50px;
+.details {
+  height: 30%;
+}
+
+.details h1 {
+  font-size: 30px;
   letter-spacing: 6px;
 }
 
-.founder div:nth-child(odd) p {
+.details p {
   font-size: 20px;
   letter-spacing: 3px;
 }
 
-.founder div:nth-child(even) {
-  width: 350px;
-  padding: 10px;
-}
 
 .founder img {
   width: 100%;
-  height: 100%;
   border-radius: 10px;
 }
 
 .coFounder {
-  height: 400px;
+  min-height: 400px;
+  width: 80%;
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.712);
-  transform: translateX(600px);
-  opacity: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  opacity: 1;
 }
 
 .coFounder div {
-  height: 100%;
+  height: 300px;
+  width: 300px;
   overflow-y: hidden;
   z-index: 0;
-}
-
-.coFounder div:nth-child(odd) {
-  width: 250px;
-  padding: 10px;
-}
-
-.coFounder div:nth-child(even) {
-  width: 300px;
-  color: white;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50%;
+  background: black;
+  color: white;
+  padding: 2%;
+  margin-left: 20px;
+  margin-top: 50px;
 }
 
-.coFounder div:nth-child(even) h1 {
-  font-size: 30px;
-  letter-spacing: 4px;
-}
-
-.coFounder div:nth-child(even) p {
+.coFounder div h1 {
   font-size: 20px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
+}
+
+.coFounder div p {
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .coFounder img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .details h1 {
+    font-size: 25px;
+    letter-spacing: 6px;
+  }
+  
+  .details p {
+    width: 300px;
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
 }

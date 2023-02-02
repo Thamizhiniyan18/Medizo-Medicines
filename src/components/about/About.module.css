@@ -40,5 +40,29 @@
   margin-top: 60px;
 }
 
+@media screen and (max-width: 600px) {
+  .Title p {
+    letter-spacing: 5px;
+    font-size: 40px;
+  }
 
+  .contentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
+  .stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    margin-top: 20px;
+  }
+}

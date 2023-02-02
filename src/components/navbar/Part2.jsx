@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Part2.module.css";
+import { HashLink } from "react-router-hash-link";
 
 const Part2 = () => {
   const onMouseEnter_Handler = (event) => {
@@ -12,7 +13,20 @@ const Part2 = () => {
     event.currentTarget.children[1].className = `${styles.underline}`;
   };
 
-  const elements = ["Home", "About Us", "Contact"];
+  const elements = [
+    {
+      name: "Home",
+      Link: "#Home"
+    },
+    {
+      name: "About Us",
+      Link: "#AboutUs"
+    },
+    {
+      name: "Contact",
+      Link: "#Contact"
+    },
+  ]
 
   return (
     <div className={styles.part2}>
@@ -24,7 +38,9 @@ const Part2 = () => {
               onMouseLeave={onMouseLeave_Handler}
               key={Math.random()}
             >
-              <p>{element}</p>
+              <p>
+                <HashLink to={element.Link} smooth>{element.name}</HashLink>
+              </p>
               <div className={styles.underline}></div>
             </li>
           ))}
